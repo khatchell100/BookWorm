@@ -1,0 +1,138 @@
+body {
+  background-color: rgb(71, 48, 155);
+}
+
+.App {
+  
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  
+}
+
+.PopUp {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(71, 48, 155);
+  text-align: center;
+}
+
+#fav {
+  display:inline-block;
+  background-color: rgb(34, 28, 68);
+  border-radius: 15px;
+  margin-right: 10px;
+  line-height: 0px; 
+  width : 150px;
+  vertical-align: middle;
+  color:aliceblue;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#tit {
+  text-align: center;
+  background-color: rgb(34, 28, 68);
+  height : 80px;
+  color:aliceblue;
+}
+
+#text-middle {
+  height : 200px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  border-radius: 100px;
+}
+
+input {
+  height: 40px;
+  width: 600px;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(34, 28, 68);
+  
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(34, 28, 68);
+}
+
+button:hover {
+  background-color: rgb(174, 158, 232);
+}
+
+il {
+   display:inline;
+}
+
+.top {
+  display: inline-block;
+  
+}
+
+#favs {
+  position: absolute;
+  right: 0%;
+  background-color: rgb(174, 158, 232);;
+  width: 30%;
+  height: 100%;
+  border-radius: 30px 0px 0px 30px;
+}
+
+#top-right {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+
+
+#firstFav {
+    position: absolute;
+    top: -6%;
+    left: 33%;
+}
+
+#favBox {
+    color: aliceblue;
+    position: relative;
+    background: rgb(71, 48, 155);
+    width : 70%;
+    height: 15%;
+    left: 3%;
+    border-radius: 15px;
+}
+
+#fav-photo {
+    border-radius: 15px;
+    position: relative;
+    height: 100%;
+}
+
+#favBut {
+    position: absolute;
+    top: 30%;
+    left: 32%;
+    width: 60%;
+}
+
+#favDel {
+    position: absolute;
+    width: 60%;
+    left: 32%;
+    top: 60%;
+}
+
+#favtitle {
+    color: aliceblue;
+    position: relative;
+    left: 30%;
+}
