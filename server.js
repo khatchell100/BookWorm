@@ -29,7 +29,7 @@ app.post('/get-data/:name', async (req, res) => {
         method: "POST",
         headers: {
         "content-type" : "application/json",
-        "authorization" : "Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJIYXJkY292ZXIiLCJ2ZXJzaW9uIjoiOCIsImp0aSI6IjdjMDZmMGQzLWUzMzAtNDliZC05ZGQ4LTZjZTc2NWQ1YzBmMCIsImFwcGxpY2F0aW9uSWQiOjIsInN1YiI6IjgzOTU4IiwiYXVkIjoiMSIsImlkIjoiODM5NTgiLCJsb2dnZWRJbiI6dHJ1ZSwiaWF0IjoxNzc3NTc2OTc3LCJleHAiOjE4MDkxMTI5NzcsImh0dHBzOi8vaGFzdXJhLmlvL2p3dC9jbGFpbXMiOnsieC1oYXN1cmEtYWxsb3dlZC1yb2xlcyI6WyJ1c2VyIl0sIngtaGFzdXJhLWRlZmF1bHQtcm9sZSI6InVzZXIiLCJ4LWhhc3VyYS1yb2xlIjoidXNlciIsIlgtaGFzdXJhLXVzZXItaWQiOiI4Mzk1OCJ9LCJ1c2VyIjp7ImlkIjo4Mzk1OH19.r5T1J1F4xJK7dUFNPygv0mQUGqNRZAissqxH_nxIXZ8",
+        "authorization" : "put your hardcover key here...",
         },
         body: JSON.stringify({
         query : q,
